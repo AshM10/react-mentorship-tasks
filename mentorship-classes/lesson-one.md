@@ -37,6 +37,35 @@
 
 ![Screenshot 2022-12-23 at 11 59 14 AM](https://user-images.githubusercontent.com/89284873/209385165-c89ed25a-8c1b-42e8-8915-9f390d36ce29.png)
 
+## Folder Structure
+
+- The folder structure of a React application created using create-react-app is similar to the following:
+
+```js
+my-app/
+  README.md
+  node_modules/
+  package.json
+  public/
+    index.html
+    favicon.ico
+  src/
+    App.css
+    App.js
+    App.test.js
+    index.css
+    index.js
+    logo.svg
+```
+
+Here's a brief description of each folder and file:
+
+- node_modules/: This folder contains all of the packages (and their dependencies) that your application depends on. These packages are installed using the npm install command.
+- public/: This folder contains the public assets of your application, such as the index.html file and any images or icons that you want to include.
+- src/: This folder contains the source code of your application. It typically includes the entry point of your application (index.js), as well as the root component of your application (App.js) and any other components or utility files that you want to include.
+- package.json: This file contains metadata about your application, such as its name, version, and dependencies. It also includes scripts that you can use to build, test, and run your application.
+- README.md: This file contains information about your application, such as how to install and use it.
+
 ## What is the best javascript framework to learn in 2022?
 
 - It is difficult to determine the "best" JavaScript framework, as the choice of which framework to use often depends on the specific needs and goals of a project. That being said, some popular JavaScript frameworks that may be worth considering in 2022 include:
